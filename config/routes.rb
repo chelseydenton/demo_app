@@ -1,4 +1,6 @@
 DemoApp::Application.routes.draw do
+  root 'static_pages#home'
+
   resources :microposts
 
   resources :users
